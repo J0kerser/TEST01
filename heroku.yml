@@ -1,0 +1,5 @@
+build:
+  docker:
+      worker: /JOKERSER/Dockerfile
+run:
+   worker: npm start
