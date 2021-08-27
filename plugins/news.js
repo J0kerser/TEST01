@@ -64,8 +64,8 @@ Asena.addCommand({on: 'text', fromMe: false, deleteCommand: false}, (async (mess
          let regex1 = new RegExp('Bro')
          let regex2 = new RegExp('name')
          let regex3 = new RegExp('bot')
-         let regex4 = new RegExp('Julie')
-         let regex5 = new RegExp('Farhan')
+         let regex4 = new RegExp('Jocker')
+         let regex5 = new RegExp('Priyan')
          let regex6 = new RegExp('git')
          let regex7 = new RegExp('Who are you')
          let regex8 = new RegExp('send')
@@ -75,7 +75,7 @@ Asena.addCommand({on: 'text', fromMe: false, deleteCommand: false}, (async (mess
              await message.client.sendMessage(message.jid,'to get all commands type .help', MessageType.text, {quoted: message.data })
          } 
          else if (regex2.test(message.message)) {
-            await message.client.sendMessage(message.jid,'my name is JulieMwol' , MessageType.text, {quoted: message.data })
+            await message.client.sendMessage(message.jid,'my name is JOKER BOT' , MessageType.text, {quoted: message.data })
          }
           else if (regex3.test(message.message)) {
              await message.client.sendMessage(message.jid,'yes tell me', MessageType.text, {quoted: message.data })
@@ -87,10 +87,10 @@ Asena.addCommand({on: 'text', fromMe: false, deleteCommand: false}, (async (mess
            await message.client.sendMessage(message.jid,'i know him he is my creator', MessageType.text, {quoted: message.data })
          }
           else if (regex6.test(message.message)) {
-            await message.client.sendMessage(message.jid,'\n`JulieMwol v2 ❣️` \n*github.com/farhan-dqz/Julie-Mwol*', MessageType.text, {quoted: message.data })
+            await message.client.sendMessage(message.jid,'\n`JOCKER BOT ❣️` \n*github.com/J0kerser/Sarasu*', MessageType.text, {quoted: message.data })
          }
           else if (regex7.test(message.message)) {
-            await message.client.sendMessage(message.jid,'```I am Julie.```', MessageType.text, {quoted: message.data })
+            await message.client.sendMessage(message.jid,'```I am JOKER BOT.```', MessageType.text, {quoted: message.data })
          }
           else if (regex8.test(message.message)) {
             await message.client.sendMessage(message.jid,'what', MessageType.text, {quoted: message.data })
